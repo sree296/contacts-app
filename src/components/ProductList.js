@@ -4,7 +4,6 @@ class ProductList extends React.Component {
     constructor(props){
         super(props);
     }
-
     render() {
         const _products = [];
         const searchText = this.props.searchText.toLowerCase();
